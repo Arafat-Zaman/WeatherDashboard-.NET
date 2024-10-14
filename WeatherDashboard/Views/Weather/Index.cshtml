@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Real-Time Weather Dashboard";
+}
+
+<h2>Real-Time Weather Dashboard</h2>
+
+<div>
+    <label for="cityInput">Enter City Name:</label>
+    <input type="text" id="cityInput" />
+    <button id="getWeatherBtn">Get Weather</button>
+</div>
+
+<div id="weatherResult" style="margin-top: 20px;">
+    <!-- Weather data will be displayed here -->
+</div>
+
+@section Scripts {
+    <script src="~/js/weather.js"></script>
+}
